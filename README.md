@@ -11,7 +11,7 @@ Pull the image from the Docker hub
 
 Next, run the container
 
-`docker run --name irkerd --rm -d p 6659:6659 ajoergensen/irkerd`
+`docker run --name irkerd --rm -d -p 6659:6659 ajoergensen/irkerd`
 
 Now [configure Gitlab to use the irker gateway][1]
 
