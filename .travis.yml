@@ -12,7 +12,7 @@ script:
 - docker ps -a
 - sleep 5
 - docker logs $IMAGE
-- docker exec $IMAGE pgrep irkerd
+- docker exec $IMAGE pgrep python
 after_script:
 - docker rm -f $IMAGE
 - docker rmi $REPO:$TAG

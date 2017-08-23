@@ -2,6 +2,6 @@
 set -e
 
 : ${LISTEN_ADDR:="0.0.0.0"}
-: ${LOG_LEVEL:="debug"}
+: ${LOG_LEVEL:="info"}
 
 exec s6-setuidgid app /usr/bin/irkerd -l /dev/stdout -H $LISTEN_ADDR -d $LOG_LEVEL
