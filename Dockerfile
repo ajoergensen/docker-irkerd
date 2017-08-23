@@ -1,6 +1,6 @@
 FROM ajoergensen/baseimage-alpine
 
-MAINTAINER "ajoergensen"
+MAINTAINER ajoergensen
 ARG BUILD_DATE
 ARG VCS_REF
 
