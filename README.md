@@ -1,8 +1,6 @@
 Docker irker container
 ===================
 
-[![](https://images.microbadger.com/badges/image/ajoergensen/irkerd.svg)](https://microbadger.com/images/ajoergensen/irkerd "Get your own image badge on microbadger.com") [![Build Status](https://travis-ci.org/ajoergensen/docker-irkerd.svg?branch=master)](https://travis-ci.org/ajoergensen/docker-irkerd)
-
 irkerd is a specialized IRC client that runs as a daemon, allowing other programs to ship IRC notifications by sending JSON objects to a listening socket.
 
 ### Usage
